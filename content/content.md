@@ -127,12 +127,11 @@ Recipe directory
 Help center
 Privacy & terms
 
-
 ######
 
 ## Section
 
--Navigation
+-Logo + Navigation
 -Hero
 -Featured in
 -How it works
