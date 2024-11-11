@@ -121,6 +121,7 @@ Instead, 1rem = 1em = 16px
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    z-index: 1000;
   }
 
   .main-nav {
@@ -277,7 +278,7 @@ Instead, 1rem = 1em = 16px
     grid-template-columns: 1fr;
   }
 
-  .cta-yexy-box{
+  .cta-yexy-box {
     padding: 3.2rem;
   }
 
