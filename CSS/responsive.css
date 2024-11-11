@@ -1,0 +1,15 @@
+/* ************************* */
+/* HERO SECTION */
+/* ************************* */
+
+@media(max-width: 1200px){
+  .section-hero{
+    background-color: orangered;
+  }
+}
+
+@media(max-width: 600px){
+  .section-hero{
+    background-color: red;
+  }
+}
