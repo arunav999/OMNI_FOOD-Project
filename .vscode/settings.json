@@ -1,0 +1,11 @@
+{
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "/",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.https": {
+    "enable": false,
+    "cert": "D:/CODE/CSS - Udemy/07-Omnifood-Desktop/https/localhost.pem",
+    "key": "D:/CODE/CSS - Udemy/07-Omnifood-Desktop/https/localhost.key",
+    "passphrase": "12345678"
+  }
+}
