@@ -1,15 +1,5 @@
-/* ************************* */
-/* HERO SECTION */
-/* ************************* */
+/* 
+rem and em do not depend on html font-size in media quries! 
+Instead, 1rem = 1em = 16px
+*/
 
-@media(max-width: 1200px){
-  .section-hero{
-    background-color: orangered;
-  }
-}
-
-@media(max-width: 600px){
-  .section-hero{
-    background-color: red;
-  }
-}
