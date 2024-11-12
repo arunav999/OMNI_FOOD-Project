@@ -11,6 +11,52 @@ const handleClick = () => headerEl.classList.toggle("nav-open");
 
 btnNavEl.addEventListener("click", handleClick);
 
+// Atuo-close on nav-click
+
+const navHowEl = document.querySelector("a[href='#how']");
+const navMealsEl = document.querySelector("a[href='#meals']");
+const navTestimonialsEl = document.querySelector("a[href='#testimonials']");
+const navPricingEl = document.querySelector("a[href='#pricing']");
+const navTryEl = document.querySelector("a[href='#try']");
+
+const handleCloseClick = () => {
+  headerEl.classList.remove("nav-open");
+};
+
+navHowEl.addEventListener("click", handleCloseClick);
+navMealsEl.addEventListener("click", handleCloseClick);
+navTestimonialsEl.addEventListener("click", handleCloseClick);
+navPricingEl.addEventListener("click", handleCloseClick);
+navTryEl.addEventListener("click", handleCloseClick);
+
+///////////////////////////////////////////////////
+// SMOOTH SCROLLING ANIMATION
+
+// const allLinks = document.querySelectorAll("a:link");
+
+// allLinks.forEach(function (link) {
+//   link.addEventListener("click", function (e) {
+//     e.preventDefault();
+//     const href = link.getAttribute("href");
+
+//     // Scroll back to top
+//     if (href === "#")
+//       window.scrollTo({
+//         top: 0,
+//         behavior: "smooth",
+//       });
+
+//     if (href !== "#" && href.startsWith("#")) {
+//       const sectionEl = document.querySelectorAll(href);
+//       sectionEl.scrollIntoView({ behavior: "smooth" });
+//     }
+//   });
+// });
+
+// if (link.classList.contains("main-nav-link")) {
+//   headerEl.classList.toggle("nav-open");
+// }
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
